@@ -157,6 +157,13 @@ class ViewController: UIViewController, ORKTaskViewControllerDelegate {
         
         self.launchAssessmentForTask(task)
     }
+    @IBAction func launchMySurvey(sender: AnyObject) {
+        let task = YADLFullAssessmentTask(identifier: "My Survey Identifier", propertiesFileName: "mySurvey")
+        
+        self.launchAssessmentForTask(task)
+
+        
+    }
     
 }
 

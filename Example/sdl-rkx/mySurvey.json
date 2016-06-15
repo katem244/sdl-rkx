@@ -1,0 +1,56 @@
+{
+    "YADL":{
+        "full":{
+            "identifier":"My Survey Identifier",
+            "prompt":"Did you do this before going to bed?",
+            "summary":{
+                "identifier":"My Survey Summary Identifier",
+                "title":"Thanks",
+                "text":"Thank you for participating in my survey!"
+            },
+            "choices":[
+                       {
+                       "text":"Yes",
+                       "value":"yes",
+                       "color":"#69D2E7"
+                       },
+                       {
+                       "text":"No",
+                       "value":"no",
+                       "color":"#F38630"
+                       }
+                       ]
+        },
+        "activities":[
+                      {
+                      "imageTitle":"dimLights",
+                      "description":"Dim the Lights",
+                      "identifier":"dimLights"
+                      },
+                      {
+                      "imageTitle":"partner",
+                      "description":"Notify Your Partner",
+                      "identifier":"partner"
+                      },
+                      {
+                      "imageTitle":"TurnOffLaptop",
+                      "description":"Turn off Electronics",
+                      "identifier":"TurnOffLaptop"
+                      },
+                      {
+                      "imageTitle":"thermostat",
+                      "description":"Turn Down the Thermostat",
+                      "identifier":"thermostat"
+                      },
+                      {
+                      "imageTitle":"toDo",
+                      "description":"Prepare Your To-Do List",
+                      "identifier":"toDo"
+                      },
+                      {
+                      "imageTitle":"nightShift",
+                      "description":"Activate Night Shift",
+                      "identifier":"nightShift"
+                      }]
+    }
+}
