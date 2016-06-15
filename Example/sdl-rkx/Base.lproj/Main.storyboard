@@ -60,7 +60,7 @@
                                     <action selector="launchMEDLSpotAssessment:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2Is-Kk-b7E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tI-5M-tLO">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tI-5M-tLO">
                                 <rect key="frame" x="264" y="228" width="72" height="30"/>
                                 <state key="normal" title="My Survey"/>
                                 <connections>
@@ -73,6 +73,7 @@
                             <constraint firstItem="o6Z-5M-hdr" firstAttribute="top" secondItem="vzc-a7-6rY" secondAttribute="bottom" constant="8" id="325-6u-e9O"/>
                             <constraint firstItem="QGu-Pi-f66" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="7li-Uq-D7z"/>
                             <constraint firstItem="h4M-0K-7j3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="CLd-y3-5hb"/>
+                            <constraint firstItem="0tI-5M-tLO" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ELQ-56-4gX"/>
                             <constraint firstItem="hpU-Kf-8WQ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="U6g-Cp-CRN"/>
                             <constraint firstItem="hpU-Kf-8WQ" firstAttribute="top" secondItem="QGu-Pi-f66" secondAttribute="bottom" constant="18" id="VcW-Kl-T45"/>
                             <constraint firstItem="vzc-a7-6rY" firstAttribute="top" secondItem="hpU-Kf-8WQ" secondAttribute="bottom" constant="8" symbolic="YES" id="VkC-uW-IcT"/>
